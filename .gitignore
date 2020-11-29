@@ -1,3 +1,7 @@
 .idea
 vendor
 .env*
+build
+composer.lock
+docs
+coverage
