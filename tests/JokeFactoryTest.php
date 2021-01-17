@@ -10,6 +10,7 @@ use PHPUnit\Framework\TestCase;
 class JokeFactoryTest extends TestCase
 {
     /** @test
+     * @covers \Fadhlillah25\ChuckNorrisJokes\JokeFactory
      */
     public function  it_returns_a_random_joke()
     {
@@ -21,7 +22,9 @@ class JokeFactoryTest extends TestCase
         $this->assertSame('This is a joke', $joke);
     }
 
-    /** @test */
+    /** @test
+     * @covers \Fadhlillah25\ChuckNorrisJokes\JokeFactory
+     */
     public function  it_returns_a_predefined_joke()
     {
         $chuckNorrisJokes = [
