@@ -17,8 +17,8 @@
          stopOnFailure="false"
          verbose="true">
     <testsuites>
-        <testsuite name="Chuck Norris TetstSuite">
-            <directory suffix="Test.php">tests</directory>
+        <testsuite name="Chuck Norris Test Suite">
+            <directory suffix="Test.php">tests/</directory>
         </testsuite>
     </testsuites>
 
